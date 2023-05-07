@@ -3,8 +3,11 @@ import { Avatar, Stack, Divider, Typography, Button } from '@mui/material'
 import headshot from '../images/headshot.jpg';
 import { styled } from '@mui/material/styles';
 import { red, orange } from '@mui/material/colors';
+import { useNavigate } from 'react-router-dom';
 
 function FrontPage () {
+  const nav = useNavigate();
+
   const AboutMeButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText(red[700]),
     backgroundColor: red[200],
@@ -39,7 +42,7 @@ function FrontPage () {
         <br />
         <br />
         <br />
-        <AboutMeButton variant="contained">About Me</AboutMeButton>
+        <AboutMeButton variant="contained" onClick={() => nav('/aboutme')}>About Me</AboutMeButton>
       </Stack>
     </>
   )
