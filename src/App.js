@@ -9,7 +9,7 @@ import SocialsPage from './pages/SocialsPage';
 function App () {
   return (
     <>
-      <BrowserRouter basename='/'>
+      <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path='/' element={<FrontPage />} />
