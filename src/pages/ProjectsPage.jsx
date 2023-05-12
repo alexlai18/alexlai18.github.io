@@ -9,6 +9,8 @@ function ProjectsPage() {
 
   return (
     <>
+      Should write about UNSW projects like Microsoft Streams, DungeonMania, Lurkforwork
+      Do a little dialog thing to showcase this
     </>
   )
 }

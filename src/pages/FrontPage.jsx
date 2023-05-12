@@ -37,7 +37,7 @@ function FrontPage () {
       <br />
       <br />
       <br />
-      <Stack display='flex' direction='column' justifyContent='center' alignItems='center'>
+      <Stack display='flex' direction='column' justifyContent='center' alignItems='center' textAlign='center'>
         <Typography variant='h4' fontFamily='sans-serif' fontWeight='bold'>Click the button to learn more about me!</Typography>
         <br />
         <br />

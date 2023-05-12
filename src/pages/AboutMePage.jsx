@@ -31,6 +31,24 @@ function AboutMePage() {
           <img src={headshot} alt='headshot' width='250px'/>
         </Box>
       </Box>
+      <Typography variant='h5'>Education</Typography>
+      <br/>
+      <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+        <Box sx={{width: '500%' }}>
+          <Typography variant='body1'>Currently pursuing a Computer Science (Co-op) Degree at UNSW</Typography>
+          <ul>
+            <li>Co-op Scholar @ UNSW - Current placement at NRMA</li>
+            <li>77 WAM</li>
+          </ul>
+
+          <Typography variant='body1'>I graduated Sydney Boys High School in 2020</Typography>
+          <ul>
+            <li>HSC Premier's Award for All Rounder Excellence</li>
+            <li>Played Basketball and Football (soccer) from Year 7 through Year 12</li>
+          </ul>
+        </Box>
+      </Box>
+      <br/>
       <Typography variant='h5'>Hobbies</Typography>
       <Box sx={{ display: 'flex', flexDirection: 'row' }}>
         <Box sx={{width: '500%' }}>
