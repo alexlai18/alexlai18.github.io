@@ -9,6 +9,7 @@ function ProjectsPage() {
   }
 
   const rows = [
+    createData("NeXUS - NRMA", 2022, "Javascript"),
     createData('Microsoft Streams', 2022, 'Python', MicrosoftStreams),
     createData('DungeonMania', 2022, 'Java'),
     createData('LurkForWork', 2023, 'JavaScript, HTML'),
