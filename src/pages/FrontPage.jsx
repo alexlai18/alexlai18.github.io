@@ -1,29 +1,23 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Avatar, Stack, Divider, Typography, Button } from '@mui/material'
 import headshot from '../images/headshot.jpg';
 import { styled } from '@mui/material/styles';
-import { red, orange } from '@mui/material/colors';
 import { useNavigate } from 'react-router-dom';
 
 function FrontPage () {
   const nav = useNavigate();
 
   const AboutMeButton = styled(Button)(({ theme }) => ({
-    color: theme.palette.getContrastText(red[700]),
-    backgroundColor: red[200],
+    color: theme.palette.getContrastText("#d32f2f"),
+    backgroundColor: "#ef9a9a",
     '&:hover': {
-      backgroundColor: red[300],
+      backgroundColor: "#e57373",
     },
     width: '300px',
     height: '50px',
     fontFamily: 'sans-serif',
     fontSize: '15px'
   }));
-
-  useEffect(() => {
-    const colour = orange[100];
-    document.body.style.backgroundColor = colour;
-  }, []);
 
   return (
     <>

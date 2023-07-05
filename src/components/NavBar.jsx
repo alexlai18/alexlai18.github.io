@@ -8,7 +8,7 @@ function NavBar () {
 
   return (
     <>
-      <AppBar position="static" style={{ background: '#b28e59', height: 100, overflow: 'hidden' }}>
+      <AppBar position="static" style={{ background: '#DDA15E', height: 100, overflow: 'hidden' }}>
         <Toolbar disableGutters>
           <Link to='/' style={{ display: 'flex', flexDirection: 'row', textDecoration: 'none', paddingLeft: 40, width: '40%' }}>
             <img src={logo} alt='personal-logo' style={{ width: '40%' }}/>

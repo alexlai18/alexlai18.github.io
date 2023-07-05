@@ -24,6 +24,7 @@ function AboutMePage() {
       <Box sx={{ display: 'flex', flexDirection: 'row', marginRight: '0' }}>
         <Box sx={{width: '500%' }}>
           <Typography variant='body1'>Hi I'm Alex, and I am a current 3rd Year UNSW student studying Computer Science &#40;Co-op&#41;.</Typography>
+          <Typography variant='body1'>I'm currently working at NRMA as a Junior Cloud Engineer.</Typography>
           <Typography variant='body1'>As the son of business owners, I understand the importance of technology in allowing individuals to more efficiently perform their tasks. Thus, I am looking to have an impact on the world by building software that allows people to be the best that they can be!</Typography>
           <Typography variant='body1'>I'm constantly trying to upskill myself in both professional development and technical skills. I'm currently the Education Director of a UNSW Student Society, UNSW Management Society. I'm also learning new programming languages such as Javascript &#40;React&#41;, Python, etc.</Typography>
         </Box>
